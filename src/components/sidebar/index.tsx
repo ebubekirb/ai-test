@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { GalleryVerticalEnd, Pencil, Settings2, SquarePen } from 'lucide-react';
+import { Settings2 } from 'lucide-react';
 
 import {
   Sidebar,
@@ -14,7 +14,7 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
 } from '@/components/ui/sidebar';
-import { NavUser } from './nav-user';
+import { NavUser } from './partials/nav-user';
 
 const sidebarData = [
   {
